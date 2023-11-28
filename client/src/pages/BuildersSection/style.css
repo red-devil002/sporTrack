@@ -1,0 +1,106 @@
+/* Reset default text-decoration for all elements */
+* {
+    text-decoration: none;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: rgb(192, 215, 225);
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Button Styles */
+  .button a {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 50px;
+    width: 150px;
+    border-color: black;
+  }
+  
+  /* List Styles */
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  li a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  
+  /* General Button Style */
+  button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* Container Styles */
+  .container {
+    border: 7px solid black;
+    background-color: rgb(192, 215, 225);
+    padding: 30px;
+    max-width: 1400px;
+    height: 990px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  /* Image Styles */
+  img {
+    display: flex;
+    align-items: center;
+    display: block;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+  }
+  
+  img {
+    max-width: 28%;
+    width: 30%;
+    height: 20%;
+    margin: 40px;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    margin-bottom: 7%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 450%;
+  }

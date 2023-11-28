@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+        
+footer {
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+        
+.social-media a {
+  text-decoration: none;  
+  display: flex;
+  justify-content: right;
+}
+        
+
+Link{
+  text-decoration: none;
+}
